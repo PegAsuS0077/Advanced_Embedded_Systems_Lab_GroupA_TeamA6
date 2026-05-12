@@ -3,7 +3,7 @@
 
 OneWire ds(2);
 
-// Custom BLE service and characteristic UUIDs
+
 BLEService sensorService("19B10000-A8F2-537E-4F6C-D104768A1214");
 
 BLEIntCharacteristic sensorCharacteristic(
